@@ -19,3 +19,25 @@ body
     margin: auto;
     overflow: hidden;
 }
+
+.textFld 
+{
+    width: 250px;
+    box-sizing: border-box;
+    margin: 50px 5px;
+}
+
+@media screen and (max-width: 550px) 
+{
+    .textFld 
+    {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 400px) 
+{
+    .textFld {
+        width: 150px;
+    }
+}
