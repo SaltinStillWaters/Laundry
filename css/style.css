@@ -4,17 +4,13 @@ body
     font-size: 16px;
     line-height: 1.6em;
     margin: 0;
+    text-align: center;
 }
 
 #mainHeader
 {
     background-color: #333;
     color: white;
-}
-
-#mainHeader h1
-{
-    text-align: center;
 }
 
 .container
