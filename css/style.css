@@ -20,24 +20,34 @@ body
     overflow: hidden;
 }
 
+.button
+{
+    width: 50px;
+}
 .textFld 
 {
     width: 250px;
+    border-radius: 5px;
+    border: 1px solid #8e8e8e;
+    font-size: 25px;
     box-sizing: border-box;
     margin: 50px 5px;
 }
 
-@media screen and (max-width: 550px) 
+@media screen and (max-width: 700px) 
 {
     .textFld 
     {
-        width: 200px;
+        width: 33vw;
+        font-size: 20px;
     }
 }
 
-@media screen and (max-width: 400px) 
+@media screen and (max-width: 450px) 
 {
-    .textFld {
-        width: 150px;
+    .textFld 
+    {
+        width: 33vw;
+        font-size: 18px;
     }
 }
